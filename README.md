@@ -2,6 +2,10 @@
 
 CineStream is a lightweight SwiftUI iOS starter app that fetches movie and TV metadata from The Movie Database (TMDB) and performs YouTube searches to show trailers. Titles can be viewed, searched, and saved locally using SwiftData. 🍿
 
+# Preview
+<img width="332" height="728" alt="Screenshot 2025-11-18 at 6 28 39 pm" src="https://github.com/user-attachments/assets/73cc4f8f-c658-4fcc-bf22-60750584819b" />
+
+
 Project structure (MVVM) - clean and scalable 🗂️
 - CineStream/
   - App/ 🚀
@@ -60,7 +64,7 @@ Setup & Configuration
 
 API Keys 🔑
 - Please enter your API Key from The Movie Database into Services/APIConfig.json: https://www.themoviedb.org/?language=en-US
-- You'll also need a key from Google Developer Console for the Youtube API: https://console.cloud.google.com/
+- You'll also need a key from Google Developer Console for the YouTube API: https://console.cloud.google.com/
 
 Build & run ▶️
 - In Xcode:
@@ -75,6 +79,6 @@ Features Overview ⭐
 - Downloaded: saved titles using SwiftData.
 
 Networking 🌐
-- Centralized in Services/DataFetcher.swift.
+- Centralised in Services/DataFetcher.swift.
 - TMDB endpoints and YouTube search configured via Services/APIConfig.json.
 - Errors surfaced via Utilities/Errors.swift.
